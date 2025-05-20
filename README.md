@@ -46,7 +46,7 @@
 2. Clone the repo
 
 ```sh
-git clone https://github.com/shaojintian/Best_README_template.git
+git clone https://github.com/huangxixiyiqi/retrieval_demo
 ```
 
 ### 文件目录说明
