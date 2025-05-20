@@ -1,0 +1,15 @@
+/* 重置 body 的 margin */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* 其他全局样式 */
+html, body {
+  height: 100%;
+}
+
+
+
+
+

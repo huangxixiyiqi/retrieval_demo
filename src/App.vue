@@ -1,19 +1,28 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
+import login from './components/login.vue';
+import Index from './components/Index.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    login,
+    Index
+  },
+  data() {
+    return {
+
+    };
+  },
+  methods: {
+
+  },
+};
 </script>
 
 <style>
@@ -23,6 +32,13 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  min-height: 100vh;
+  /* 确保全屏高度 */
+}
+
+
+.el-row {
+  display: block;
+  /* 确保 el-row 显示 */
 }
 </style>
